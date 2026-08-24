@@ -47,10 +47,10 @@ Software engineering, full-stack development, AI and machine learning, computer 
 
 | Domain | Experience | Details |
 | --- | --- | --- |
-| Computer vision | Academic and project experience | Facial emotion classification using the FER2013 dataset. |
-| Deep learning | Academic and project experience | CNN-based image classification. |
-| Machine learning | Academic experience | Model development and image classification workflows. |
-| MATLAB | Project experience | Used for CNN-based facial emotion classification. |
+| Computer vision | Academic project experience | Facial emotion classification on FER2013 using deep visual features. |
+| Deep learning | Academic project experience | Used a pre-trained ResNet-50 as a frozen feature extractor. |
+| Machine learning | Academic project experience | Trained a multiclass SVM classifier on extracted image features. |
+| MATLAB | Academic project experience | Used MATLAB and the Deep Learning Toolbox for feature extraction, training, and evaluation. |
 
 ## Featured projects
 
@@ -83,6 +83,22 @@ A bilingual inventory management application for technology devices. It includes
 
 </details>
 
+<details>
+<summary><strong>Facial emotion classification on FER2013</strong></summary>
+
+An academic senior project completed with a University of Hail team. The project classifies facial expressions using a MATLAB pipeline that extracts features with a pre-trained ResNet-50 model and trains a multiclass SVM classifier.
+
+| Category | Details |
+| --- | --- |
+| Dataset | Customized FER2013 dataset with 28,273 images across six classes: angry, fear, happy, sad, surprise, and neutral |
+| Pipeline | Images resized to 224 by 224, converted to three-channel RGB, normalized, and augmented before feature extraction |
+| Model | Frozen ResNet-50 feature extractor using the `fc1000` output, followed by a multiclass SVM trained with MATLAB `fitcecoc()` |
+| Evaluation | Test-set accuracy of 41.66 percent; the report notes stronger results for happy and neutral examples than for visually similar emotions |
+| Scope | Academic prototype. It does not include real-time video detection or a web or mobile deployment |
+| Source | The project report is available, while the source code is not currently published in this GitHub profile |
+
+</details>
+
 ## Project-based experience and training
 
 ### Software development
@@ -91,7 +107,7 @@ Built responsive web applications using React, TypeScript, database-backed CRUD 
 
 ### AI and machine learning
 
-Academic project work in facial emotion classification with CNNs, the FER2013 dataset, and MATLAB.
+Completed an academic facial emotion classification project using a customized FER2013 dataset, ResNet-50 feature extraction, a multiclass SVM classifier, MATLAB, and the Deep Learning Toolbox. The final report records a test-set accuracy of 41.66 percent across six emotion classes.
 
 ### Odoo Summer Bootcamp 2026
 
