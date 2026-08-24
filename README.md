@@ -84,6 +84,21 @@ A bilingual inventory management application for technology devices. It includes
 </details>
 
 <details>
+<summary><strong>Smart Awareness Portal: accessible entry prototype</strong></summary>
+
+A Smart Mobility Hackathon project that received first place. The concept supports more independent access to public places for people with disabilities through sensing, camera vision, AI-assisted interpretation, and a smart-entry control path.
+
+| Category | Details |
+| --- | --- |
+| Stack | Python, Tkinter, OpenCV, Ultralytics YOLOv8, Pillow, PySerial |
+| Current prototype | Webcam object detection with live bounding boxes and a temporally smoothed detected or not-detected state |
+| Hardware direction | Designed for Arduino or controller integration to connect detection events with accessible-entry actions and alerts |
+| Prototype boundary | Current published code demonstrates the vision workflow; it does not yet include Arduino firmware, serial communication, door control, or staff-notification implementation |
+| Repository | [smart-awareness-portal](https://github.com/4lli48/smart-awareness-portal) |
+
+</details>
+
+<details>
 <summary><strong>Facial emotion classification on FER2013</strong></summary>
 
 An academic senior project completed with a University of Hail team. The project classifies facial expressions using a MATLAB pipeline that extracts features with a pre-trained ResNet-50 model and trains a multiclass SVM classifier.
@@ -117,6 +132,7 @@ University of Hail training focused on the Odoo framework, module development, a
 
 | Recognition | Details |
 | --- | --- |
+| Smart Mobility Hackathon | First place for the Smart Awareness Portal accessibility project. |
 | Odoo Summer Bootcamp 2026 | University of Hail training in the Odoo framework and module development. |
 
 ## Coding profile
